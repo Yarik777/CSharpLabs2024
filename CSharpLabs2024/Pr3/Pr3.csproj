@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0A1715A0-C5BA-4018-A56E-FD0F39A46E55}</ProjectGuid>
+    <ProjectGuid>{EA6C1FE6-ED02-4A5A-A554-7AD1E0F18FF9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pr1</RootNamespace>
-    <AssemblyName>Pr1</AssemblyName>
+    <RootNamespace>Pr3</RootNamespace>
+    <AssemblyName>Pr3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookLibrary\Author.cs" />
+    <Compile Include="BookLibrary\Book.cs" />
+    <Compile Include="BookLibrary\Content.cs" />
+    <Compile Include="BookLibrary\Title.cs" />
+    <Compile Include="BookProgram.cs" />
+    <Compile Include="FigureLibrary\Figure.cs" />
+    <Compile Include="FigureLibrary\Point.cs" />
+    <Compile Include="FigureProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
