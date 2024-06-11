@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Завдання 1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Завдання 2.cs" />
+    <Compile Include="Завдання 3.cs" />
+    <Compile Include="Завдання 4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
