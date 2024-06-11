@@ -1,0 +1,2 @@
+C:\Users\Ne1te\CSharpLabs2024\CSharpLabs2024\Pr1\obj\Debug\Pr1.csproj.AssemblyReference.cache
+C:\Users\Ne1te\CSharpLabs2024\CSharpLabs2024\Pr1\obj\Debug\Pr1.csproj.CoreCompileInputs.cache
